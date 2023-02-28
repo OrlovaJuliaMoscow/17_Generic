@@ -32,11 +32,11 @@ namespace _17_Generic
 
             //BankAccount<string> account2 = new BankAccount<string>(accountString, name, balance); //{ Account = accountString, Name = name, Balance = balance };
        
-            BankAccount<int> account = new BankAccount<int>();
+            BankAccount<int> account1 = new BankAccount<int>();
             account1.Input();
             Console.WriteLine(account1.GetInfo());
 
-            BankAccount<string> account = new BankAccount<string>();
+            BankAccount<string> account2 = new BankAccount<string>();
             account2.Input();
             Console.WriteLine(account2.GetInfo());
 
